@@ -92,6 +92,15 @@ main {
     gap: 100px;
 }
 
+.projetos .lista_projetos a {
+    text-decoration: none;
+}
+
+.projetos .lista_projetos a:hover {
+    transform: translateY(-8px);
+    transition: transform 0.3s ease;
+}
+
 
 .lista_projetos .descricao .icones_tecnologias {
     list-style-type: none;
