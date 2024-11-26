@@ -1,0 +1,159 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #020060;
+}
+
+main {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.perfil {
+    margin: 150px 150px;
+    gap: 50px;
+}
+
+.nome_perfil {
+    color: #FFDD00;
+    font-size: 50px;
+}
+
+.foto_perfil {
+    width: 300px;
+    margin-left: 800px;
+    margin-top: -250px;
+    border: 5px solid #2F5ADD; 
+}
+
+.descricao_sobre_mim .titulo_sobre_mim {
+    margin-top: -15px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.descricao_sobre_mim .texto_sobre_mim {
+    font-size: 20px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.descricao_sobre_mim {
+    font-size: 16px;
+    max-width: 700px;
+} 
+
+.tecnologias_usadas {
+    margin-left: 150px;
+    margin-top: -100px;
+    font-size: 18px;
+    color: #FFDD00;
+}
+
+.lista_tecnologias_usadas {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin-left: -40px;
+}
+
+/* Animação suave para cima */
+.lista_tecnologias_usadas li:hover{
+    transform: translateY(-8px);
+    transition: transform 0.3s ease;
+}
+
+.contato {
+    font-size: 18px;
+    color: #FFDD00;
+    margin: 80px 150px;
+}
+
+.lista_contato {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin-left: -40px;
+}
+
+.lista_contato li:hover{
+    transform: translateY(-8px);
+    transition: transform 0.3s ease;
+}
+
+.projetos {
+    font-size: 18px;
+    color: #FFDD00;
+    margin: 80px 150px;
+}
+
+.lista_projetos {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+}
+
+
+.lista_projetos .descricao .icones_tecnologias {
+    list-style-type: none;
+    gap: 5px;
+    margin-left: -20px;
+    display: flex;
+}
+
+.lista_projetos .descricao .icones_tecnologias img {
+    width: 87px;
+    height: 30px;
+}
+
+.lista_projetos .projeto_1{
+    margin-left: -50px;
+    width: 310px;
+    height: 500px;
+    background-color: #0C1737;
+}
+
+.lista_projetos .projeto_1 .imagem_topo{
+    width: 310px;
+}
+
+.lista_projetos .projeto_1 h3{
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.lista_projetos p{
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 20px;
+    max-height: 200px;
+    max-width: 300px;
+    overflow-y: auto; 
+    line-height: 1.5;
+}
+
+.lista_projetos .projeto_2 {
+    width: 310px;
+    height: 500px;
+    background-color: #0C1737;
+}
+
+.lista_projetos .projeto_2 .imagem_topo {
+    width: 310px;
+    height: 173px;
+}
+
+.projeto_2 h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: #ffffff;
+}
+
+.lista_projetos .descricao .icones_tecnologias img {
+    width: 87px;
+    height: 30px;
+}
